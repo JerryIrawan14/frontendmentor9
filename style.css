@@ -1,0 +1,121 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Outfit',sans-serif;
+    background-color: var(--color-mainBG);
+    overflow: hidden;
+}
+:root{
+    --font-size: 1.125rem;
+    --font-weight-300:300;
+    --font-weight-400:400;
+    --font-weight-600:600;
+
+    --color-primary-blue:hsl(215, 51%, 70%);
+    --color-primary-cyan:hsl(178, 100%, 50%);
+
+    --color-mainBG:hsl(217, 54%, 11%);
+    --color-cardBG:hsl(216, 50%, 16%);
+    --color-line:hsl(215, 32%, 27%);
+    --color-neutral:hsl(0, 0%, 100%);
+}
+
+section{
+    width: 100%;
+    height: 100%;
+}
+.card-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: var(--font-size);
+}
+.cards{
+    background-color: var(--color-cardBG);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 18rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+.img-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-cards img{
+    width: 18rem;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+}
+.card-container h3{
+    margin-bottom: 0;
+    color: var(--color-neutral);
+}
+.p1{
+    color: var(--color-primary-blue);
+    margin-bottom: 0;
+    font-weight: var(--font-weight-300);
+}
+.eth{
+    display: flex;
+    justify-content: space-between;
+    font-size: var(--font-size);
+}
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--font-size);
+    gap: 0.5rem;
+    font-weight: var(--font-weight-600);
+}
+.left p{
+    color: var(--color-primary-cyan);
+
+}
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--font-size);
+    gap: 0.5rem;
+    font-weight: var(--font-weight-300);
+}
+.right p{
+    color: var(--color-primary-blue);
+}
+hr{
+    width: 100%;
+    color: var(--color-line);
+    margin: 0;
+}
+
+.profile-card{
+    display: flex;
+    align-items: center;
+    font-size: var(--font-size);
+    gap: 0.5rem;
+    color: var(--color-primary-blue);
+    font-weight: var(--font-weight-300);
+}
+.profile-card img{
+    width: 2rem;
+
+}
+.profile-card span{
+    color: var(--color-neutral);
+}
